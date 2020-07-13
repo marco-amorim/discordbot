@@ -1,0 +1,29 @@
+{
+  "name": "mackbot",
+  "version": "1.0.0",
+  "description": "## TODO",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-amorim/MackBot-discord.git"
+  },
+  "author": "Marco Amorim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marco-amorim/MackBot-discord/issues"
+  },
+  "homepage": "https://github.com/marco-amorim/MackBot-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
